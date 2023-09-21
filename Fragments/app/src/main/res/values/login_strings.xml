@@ -1,0 +1,8 @@
+<resources>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="usuario">Usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="recuperar_contra">¿Olvidaste tu contraseña?</string>
+    <string name="registrarse">¿No tienes cuenta? Registrate</string>
+</resources>

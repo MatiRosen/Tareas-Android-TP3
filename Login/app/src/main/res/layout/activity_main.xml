@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF00668B">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinehor15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinehor85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinever10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinever90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/guidelinehor85"
+        app:layout_constraintEnd_toStartOf="@id/guidelinever90"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guidelinever10"
+        app:layout_constraintTop_toBottomOf="@id/guidelinehor15"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@drawable/rounded_corner"
+        android:elevation="16dp">
+
+        <TextView
+            android:id="@+id/bienvenidoTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="32dp"
+            android:text="Bienvenido"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#FFE1E3E5"/>
+
+        <EditText
+            android:id="@+id/usuarioEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="28sp"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:background="#379BCC"
+            android:textColorHint="#FFE1E3E5"
+            />
+
+        <EditText
+            android:id="@+id/passEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="28sp"
+            android:hint="Contraseña"
+            android:inputType="text|textPassword"
+            android:background="#379BCC"
+            android:textColorHint="#FFE1E3E5"/>
+
+        <Button
+            android:id="@+id/loginButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Login"
+            android:textSize="28sp"
+            app:backgroundTint="#FF4BB6E8"
+            app:cornerRadius="20dp"
+            android:textColor="#FFE1E3E5" />
+
+        <TextView
+            android:id="@+id/perdidaContraseñaTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textSize="22sp"
+            android:textColor="#FFE1E3E5"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/registrateTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="¿No tienes cuenta? Registrate"
+            android:textSize="22sp"
+            android:textColor="#FFE1E3E5"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinehor50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

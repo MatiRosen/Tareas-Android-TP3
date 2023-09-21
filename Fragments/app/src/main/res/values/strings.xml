@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="telefono">Telefono</string>
+    <string name="genero">Género</string>
+    <string name="direccion">Dirección</string>
+    <string name="ver_ideas">Ver ideas</string>
+    <string name="mi_idea">Mi idea</string>
+    <string name="argentina_campeon">Argentina campeon</string>
+    <string name="volver_al_perfil">Volver al perfil</string>
+</resources>
