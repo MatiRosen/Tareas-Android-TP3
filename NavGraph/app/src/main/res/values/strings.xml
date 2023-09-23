@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NavGraph</string>
+    <string name="navgraph">NavGraph</string>
+    <string name="navegacion">Navegación</string>
+    <string name="condicional">condicional</string>
+    <string name="graph">Graph</string>
+    <string name="nav">Nav</string>
+    <string name="password">Contraseña*</string>
+    <string name="email">Email*</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="pass">Contraseña:</string>
+</resources>
