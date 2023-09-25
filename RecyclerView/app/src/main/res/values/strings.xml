@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agregar_contacto">Agregar Contacto</string>
+    <string name="nombre_del_contacto">Nombre del contacto</string>
+    <string name="ultimo_mensaje_enviado">Ultimo mensaje enviado</string>
+    <string name="hora_de_ultimo_mensaje">Hora de ultimo mensaje</string>
+    <string name="subir_imagen_contacto">Subir imagen contacto</string>
+    <string name="guardar_contacto">Guardar Contacto</string>
+    <string name="escribe_tu_mensaje">Escribe tu mensaje</string>
+</resources>
