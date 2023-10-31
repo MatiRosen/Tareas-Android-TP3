@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomNavView</string>
+    <string name="chat_fragment">Chat</string>
+    <string name="notification_fragment">Notificaciones</string>
+    <string name="profile_fragment">Perfil</string>
+    <string name="home_fragment">Home</string>
+</resources>

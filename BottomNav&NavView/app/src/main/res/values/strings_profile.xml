@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_name_data">Matias Rosen</string>
+
+    <string name="profile_email">Email</string>
+    <string name="profile_email_data">matias@rosen.com</string>
+
+    <string name="profile_phone">Teléfono</string>
+    <string name="profile_phone_data">11 2233–4455</string>
+
+    <string name="profile_gender">Género</string>
+    <string name="profile_gender_data">Hombre</string>
+
+    <string name="profile_adress">Dirección</string>
+    <string name="profile_adress_data">Calle falsa 123</string>
+</resources>
